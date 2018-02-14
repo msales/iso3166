@@ -21,6 +21,7 @@ final class Guards
      *
      * @throws \League\ISO3166\Exception\InvalidArgumentException if input is not a string
      * @throws \League\ISO3166\Exception\DomainException if input does not look like an alpha2 key
+     *                                                   that's a test.
      */
     public static function guardAgainstInvalidAlpha2($alpha2)
     {
